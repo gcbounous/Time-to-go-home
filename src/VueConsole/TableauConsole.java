@@ -29,7 +29,7 @@ public class TableauConsole {
 				case "sol":
 					tableau+=". ";
 					break;
-				case "escalier":
+				case "sortie":
 					tableau+="# ";
 					break;
 				default:
