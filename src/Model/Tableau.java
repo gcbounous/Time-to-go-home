@@ -2,6 +2,7 @@ package Model;
 
 import java.util.Vector;
 
+
 public class Tableau {
 	final private double POURCENTAGE_LAVE = 0.20;
 	final private int CHANCE_LAVE = 1;
@@ -254,6 +255,7 @@ public class Tableau {
 	 * @return vrai si lave traverse le tableau en blocant
 	 */
 	private boolean laveBloque(Lave lave, Vector<Lave> laves) {
+		//TODO: DEBUG!!!
 		boolean bloque = true;
 		laves.remove(lave);
 		if(laves.size()>0){
@@ -276,7 +278,7 @@ public class Tableau {
 	/**
 	 * Methode qui verifie si la lave est voisine de la case actuelle
 	 * 
-	 * @param coordonne coordonne de la case actuelle
+	 * @param c coordonne de la case actuelle
 	 * @param lave lave a verifier
 	 * @return vrai si lave voisine
 	 */
@@ -301,7 +303,7 @@ public class Tableau {
 	/**
 	 * Verifie s'il exite au moins une lave de chaque un des cotes
 	 * 
-	 * @param vector
+	 * @param laves
 	 *            avec toutes les cases laves du tableau
 	 * @return boolean qui verifie la definition
 	 */
@@ -325,9 +327,7 @@ public class Tableau {
 	 * Liste toutes les cases avec leur type et leur coordonee
 	 */
 	public void listerCases() {
-		for (int i = 0; i < cases.size(); i++) {
-			Case c = cases.get(i);
-
+		for (Case c : cases) {
 			if (c instanceof Lave) {
 				System.out.println(c.getType() + " : "
 						+ c.getCoordonne().toString());
