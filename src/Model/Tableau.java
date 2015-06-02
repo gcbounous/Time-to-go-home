@@ -62,9 +62,9 @@ public class Tableau {
 			}
 			ligneActuelle--;
 		}
+		placerSortie();
 		nettoyerTableau();
 		rechercheDeChemin();
-		placerSortie();
 	}
 
 	/**
@@ -241,7 +241,7 @@ public class Tableau {
 			if (estBordGauche(c)) {
 				if (laveBloque(laves.get(i), laves)) {
 					System.out.println("BLOQUEIAAA");
-//					reinitializerTableau();
+					reinitializerTableau();
 					break;
 				}
 			}
