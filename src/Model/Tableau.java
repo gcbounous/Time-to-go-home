@@ -9,6 +9,7 @@ public class Tableau {
 	final private int CHANCE_LAVE_AUTOUR = 6;
 	final private int nombreCouches;
 	private Vector<Case> cases = new Vector<Case>();
+	private boolean bloque = false;
 
 	static int compteurLave;
 
@@ -169,7 +170,7 @@ public class Tableau {
 					new Coordonne(c.getX() + 1, c.getY() + 1, c.getZ()),
 					new Coordonne(c.getX(), c.getY() + 1, c.getZ() - 1),
 					new Coordonne(c.getX() - 1, c.getY(), c.getZ() - 1),
-					new Coordonne(c.getX() - 1, c.getY() - 1, c.getZ() - 1) };
+					new Coordonne(c.getX() - 1, c.getY() - 1, c.getZ()) };
 
 			for (int i = 0; i < coordonnesAutour.length; i++) {
 				if (caseExiste(coordonnesAutour[i])) {
@@ -241,6 +242,7 @@ public class Tableau {
 				if (laveBloque(laves.get(i), laves)) {
 					System.out.println("BLOQUEIAAA");
 //					reinitializerTableau();
+					break;
 				}
 			}
 		}
@@ -254,23 +256,22 @@ public class Tableau {
 	 *            vector avec toutes les laves du tableau
 	 * @return vrai si lave traverse le tableau en blocant
 	 */
-	private boolean laveBloque(Lave lave, Vector<Lave> laves) {
-		//TODO: DEBUG!!!
-		boolean bloque = true;
+	private boolean laveBloque(Lave lave, Vector<Lave> laves){
 		laves.remove(lave);
-		if(laves.size()>0){
+		if(!bloque){
 			for (int i = 0; i < laves.size(); i++) {
-				if(estLaveVoisin(lave.getCoordonne(), laves.get(i))){
-					Coordonne c = laves.get(i).getCoordonne();
+				Lave laveAVerifier = laves.get(i);
+				if(estLaveVoisine(lave, laveAVerifier)){
+					Coordonne c = laveAVerifier.getCoordonne();
 					if(estBordDroit(c)){
 						bloque = true;
-						break;
+						return bloque;
 					}
-					bloque = laveBloque(lave, laves);
+					if(!bloque) {
+						bloque = laveBloque(laveAVerifier, laves);
+					}
 				}
 			}
-		}else{
-			bloque = false;
 		}
 		return bloque;
 	}
@@ -278,23 +279,24 @@ public class Tableau {
 	/**
 	 * Methode qui verifie si la lave est voisine de la case actuelle
 	 * 
-	 * @param c coordonne de la case actuelle
-	 * @param lave lave a verifier
+	 * @param caseActuelle case actuelle
+	 * @param laveAVerifier lave a verifier
 	 * @return vrai si lave voisine
 	 */
-	private boolean estLaveVoisin(Coordonne c, Lave lave) {
-		Coordonne cLave = lave.getCoordonne();
+	private boolean estLaveVoisine(Case caseActuelle, Lave laveAVerifier) {
+		Coordonne c = caseActuelle.getCoordonne();
+		Coordonne cLaveAVerifier = laveAVerifier.getCoordonne();
 		Coordonne[] coordonnesAutour = {
 				new Coordonne(c.getX(), c.getY() - 1, c.getZ() + 1),
 				new Coordonne(c.getX() + 1, c.getY(), c.getZ() + 1),
 				new Coordonne(c.getX() + 1, c.getY() + 1, c.getZ()),
 				new Coordonne(c.getX(), c.getY() + 1, c.getZ() - 1),
 				new Coordonne(c.getX() - 1, c.getY(), c.getZ() - 1),
-				new Coordonne(c.getX() - 1, c.getY() - 1, c.getZ() - 1) };
+				new Coordonne(c.getX() - 1, c.getY() - 1, c.getZ()) };
 
 		for (int i = 0; i < coordonnesAutour.length; i++) {
-			if (caseExiste(coordonnesAutour[i]) && cLave == coordonnesAutour[i]) {
-				return true;
+			if (caseExiste(coordonnesAutour[i]) && cLaveAVerifier.equals(coordonnesAutour[i])) {
+					return true;
 			}
 		}
 		return false;
