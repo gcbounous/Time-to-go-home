@@ -22,12 +22,7 @@ public class Tableau {
 		this.nombreCouches = nbCouches;
 		creerTableau();
 	}
-
-	/*
-	 * TODO: criar verificador de "qualidade" (ver se exite caminho possivel
-	 * etc...) testar com mapas pequenos e grandes testar com probabilidade de
-	 * lava e numero(ou proporçao) max fazer enum para tipo das cases
-	 */
+	
 	/**
 	 * Methode dediee a remplir le tableau avec cases dans une distribuition
 	 * aleatoire
