@@ -1,11 +1,9 @@
 package Model;
 
 public class Hero extends Personnage{
-	Coordonne coordonne;
+	Case caseActuelle;
 	
-	public Hero(Coordonne c){
+	public Hero(Case c){
 		super(c);
 	}
-	
-
 }

@@ -1,9 +1,9 @@
 package Model;
 
 public class Mechant extends Personnage {
-	Coordonne coordonne;
+	Case caseActuelle;
 
-	public Mechant(Coordonne c) {
+	public Mechant(Case c){
 		super(c);
 	}
 }

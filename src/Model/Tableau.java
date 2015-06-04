@@ -224,10 +224,6 @@ public class Tableau {
 	 */
 	private void rechercheDeChemin() {
 		Vector<Lave> laves = getLaves();
-		
-		System.out.print("existeDeuxCotes: ");
-		System.out.println(existeLaveDesDeuxCotes(laves));
-		
 		if (!existeLaveDesDeuxCotes(laves)) {
 			return;
 		}
@@ -235,7 +231,6 @@ public class Tableau {
 			Coordonne c = laves.get(i).getCoordonne();
 			if (estBordGauche(c)) {
 				if (laveBloque(laves.get(i), laves)) {
-					System.out.println("BLOQUEIAAA");
 					reinitializerTableau();
 					break;
 				}
