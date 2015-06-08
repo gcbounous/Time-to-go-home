@@ -46,13 +46,14 @@ public class Tableau {
 			// Boucle de contruction ligne par ligne du tableau
 			for (int i = 0; i < (2 * nombreCouches + 1) - Math.abs(ligneActuelle); i++) {
 				Coordonne c = new Coordonne(x, y, z);
-				//test
+				//---------------------------   TEST ------------------------------
 				if(c.equals(new Coordonne(0,0,0))){
-					Vector<Coordonne> cordonnes = c.getCoordonnesCouche(12);
+					Vector<Coordonne> cordonnes = c.getToutesCoordonnesDansCouche(2);
 					System.out.println("taille: "+cordonnes.size());
 					for(int j = 0; j<cordonnes.size(); j++) System.out.println(cordonnes.get(j).toString());
 				}
-				//fin test
+				//todo: mettre des getCoordonnesCouche partout
+				//----------------------------- FIN TEST -------------------------------
 				if (ligneActuelle < nombreCouches - 1) {
 					remplirLave(c, maxLave);
 				} else {

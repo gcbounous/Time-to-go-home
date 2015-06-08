@@ -78,14 +78,14 @@ public class Coordonne {
 	}
 
 	/**
-	 * Getter de toutes les coordonnes apartennant a une couche precise contenant celles des couches plus petites
+	 * Getter de toutes les coordonnes apartennant a une couche precise contenant celles des couches plus petites sauf la coordonne actuelle
 	 * @param couche couche a verifier
 	 * @return tableau avec les coordonnes de la couche
 	 */
 	public Vector<Coordonne> getToutesCoordonnesDansCouche(int couche){
 		Vector<Coordonne> coordonnes = new Vector();
 		for(int i = 1; i <= couche; i++){
-			coordonnes = getCoordonnesCouche(i);
+			coordonnes.addAll(getCoordonnesCouche(i));
 		}
 		return coordonnes;
 	}
