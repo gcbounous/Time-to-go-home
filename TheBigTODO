@@ -1,0 +1,51 @@
+-Heroi
+	-ataque(precisa criar maleta antes)
+	-bloqueia(precisa criar maleta antes)
+	-ataque direto em movimento (a voir comment faire)
+	-salto
+	-ganhaVida
+	-perdeVida
+	-ganhaEnergia
+	-perdeEnergia
+	-lista total de itens
+	-addItem
+	-removeItem
+	-trocarItemAtivo
+	-ataqueItemAtivo
+
+-Viloes
+	-pode dar vida ou energia (interface)
+		-ver modo de afecta-lo aleatoriamente 
+	-IA(?)
+		- ligar ao tabuleiro OU
+		- classe IA commum que verifica o tipo de vilao e se adapta(melhor!) ---> cada vilao tem uma IA. (Divertido. Foda, mas divertido)
+
+-Tabluleiro
+	-lista de viloes (metodos publicos)
+	-um heroi (metodos publicos)
+	-adcionarObjetos (quebraveis ou nao)
+
+-Objetos (quebraveis ou nao)
+	-pode dar vida ou energia (interface)
+	-tem vida (se quebravel)
+
+-Item
+	-id
+	-todo item tem um ataque (o que o item faz, defesa, ataque, dar vida e tirar energia, etc.)
+	-Maleta
+		-addItem
+		-removeItem
+		-attack!
+		-block!
+		-getItems
+		-listItems
+		-getItemById
+
+-Jogo (classe para testar TUDO)
+	-tem tabuleiro
+	-o jogo que modifica a posicao do(s) heroi/viloes
+	-tira vida/ da vida
+
+-Level Escritorio
+
+

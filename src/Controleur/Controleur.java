@@ -9,7 +9,8 @@ import Model.Tableau;
 public class Controleur {
 	private final int NBCOUCHES = 6;
 	private Tableau tableauDeJeu;
-	
+
+	//TODO: Creer classe Jeu (pour tester), apres ça deviendra le levels
 	public Controleur(){
 		this.tableauDeJeu = new Tableau(NBCOUCHES);
 	}
