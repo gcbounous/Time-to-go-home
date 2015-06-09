@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="558bd333-05c9-4394-b712-a3132f3ec0d6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Case.java" afterPath="$PROJECT_DIR$/src/Model/Case.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Coordonne.java" afterPath="$PROJECT_DIR$/src/Model/Coordonne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Hero.java" afterPath="$PROJECT_DIR$/src/Model/Hero.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Items/Item.java" afterPath="$PROJECT_DIR$/src/Model/Items/Item.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Tableau.java" afterPath="$PROJECT_DIR$/src/Model/Tableau.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheBigTODO" afterPath="$PROJECT_DIR$/TheBigTODO" />
     </list>
     <ignored path="Time-to-go-home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,63 +29,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tableau.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Model/Tableau.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5">
-              <caret line="54" column="62" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
-              <folding>
-                <element signature="method#placerSortie#0;class#Tableau#0" expanded="false" />
-                <element signature="method#nettoyerTableau#0;class#Tableau#0" expanded="false" />
-                <element signature="method#estBordGauche#0;class#Tableau#0" expanded="false" />
-                <element signature="method#existeLaveAutour#0;class#Tableau#0" expanded="false" />
-                <element signature="method#existeLaveDesDeuxCotes#0;class#Tableau#0" expanded="false" />
-                <element signature="method#nbCasesDuTableau#0;class#Tableau#0" expanded="false" />
-                <element signature="method#getLaves#0;class#Tableau#0" expanded="false" />
-                <element signature="method#creerSol#0;class#Tableau#0" expanded="false" />
-                <element signature="method#creerLave#0;class#Tableau#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coordonne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Coordonne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3846154">
-              <caret line="87" column="49" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="49" />
-              <folding>
-                <element signature="e#3310#3311#0" expanded="true" />
-                <element signature="e#3375#3376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mechant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Mechants/Mechant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.076923">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Hero.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Hero.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#895#896#0" expanded="true" />
+                <element signature="e#934#935#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,33 +55,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controleur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controleur/Controleur.java">
+      <file leaf-file-name="Mallette.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/Items/Mallette.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.423077">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Case.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Case.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Deplacement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Deplacement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.88235295">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="e#466#467#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Items/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,6 +93,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -151,14 +110,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/Model/Deplacement.java" />
         <option value="$PROJECT_DIR$/src/Model/Mechant.java" />
-        <option value="$PROJECT_DIR$/src/Model/Case.java" />
         <option value="$PROJECT_DIR$/src/Model/Personnage.java" />
         <option value="$PROJECT_DIR$/src/Controleur/Controleur.java" />
         <option value="$PROJECT_DIR$/src/Model/Arme.java" />
         <option value="$PROJECT_DIR$/src/Model/Mechants/Mechant.java" />
-        <option value="$PROJECT_DIR$/src/Model/Hero.java" />
-        <option value="$PROJECT_DIR$/src/Model/Coordonne.java" />
         <option value="$PROJECT_DIR$/src/Model/Tableau.java" />
+        <option value="$PROJECT_DIR$/src/Model/Case.java" />
+        <option value="$PROJECT_DIR$/src/Model/Coordonne.java" />
+        <option value="$PROJECT_DIR$/src/Model/Hero.java" />
+        <option value="$PROJECT_DIR$/src/Model/Items/Item.java" />
+        <option value="$PROJECT_DIR$/src/Model/Items/Mallette.java" />
       </list>
     </option>
   </component>
@@ -294,6 +255,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mechants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Time-to-go-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Time-to-go-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Items" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,11 +508,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28067484" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21148036" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18353474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17145015" sideWeight="0.4893617" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36963192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25460124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -565,10 +548,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="326" column="19" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="19" />
           <folding>
-            <element signature="method#placerSortie#0;class#Tableau#0" expanded="false" />
             <element signature="method#nettoyerTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#estBordGauche#0;class#Tableau#0" expanded="false" />
-            <element signature="method#existeLaveAutour#0;class#Tableau#0" expanded="false" />
             <element signature="method#existeLaveDesDeuxCotes#0;class#Tableau#0" expanded="false" />
             <element signature="method#nbCasesDuTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#getLaves#0;class#Tableau#0" expanded="false" />
@@ -584,10 +565,10 @@
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,8 +586,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3375#3376#0" expanded="true" />
+            <element signature="e#3316#3317#0" expanded="true" />
+            <element signature="e#3381#3382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -641,10 +622,10 @@
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,10 +651,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="326" column="19" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="19" />
           <folding>
-            <element signature="method#placerSortie#0;class#Tableau#0" expanded="false" />
             <element signature="method#nettoyerTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#estBordGauche#0;class#Tableau#0" expanded="false" />
-            <element signature="method#existeLaveAutour#0;class#Tableau#0" expanded="false" />
             <element signature="method#existeLaveDesDeuxCotes#0;class#Tableau#0" expanded="false" />
             <element signature="method#nbCasesDuTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#getLaves#0;class#Tableau#0" expanded="false" />
@@ -706,8 +685,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3375#3376#0" expanded="true" />
+            <element signature="e#3316#3317#0" expanded="true" />
+            <element signature="e#3381#3382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,10 +712,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#placerSortie#0;class#Tableau#0" expanded="false" />
             <element signature="method#nettoyerTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#estBordGauche#0;class#Tableau#0" expanded="false" />
-            <element signature="method#existeLaveAutour#0;class#Tableau#0" expanded="false" />
             <element signature="method#existeLaveDesDeuxCotes#0;class#Tableau#0" expanded="false" />
             <element signature="method#nbCasesDuTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#getLaves#0;class#Tableau#0" expanded="false" />
@@ -751,8 +728,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding>
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3375#3376#0" expanded="true" />
+            <element signature="e#3316#3317#0" expanded="true" />
+            <element signature="e#3381#3382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -778,10 +755,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="107" column="62" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
           <folding>
-            <element signature="method#placerSortie#0;class#Tableau#0" expanded="false" />
             <element signature="method#nettoyerTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#estBordGauche#0;class#Tableau#0" expanded="false" />
-            <element signature="method#existeLaveAutour#0;class#Tableau#0" expanded="false" />
             <element signature="method#existeLaveDesDeuxCotes#0;class#Tableau#0" expanded="false" />
             <element signature="method#nbCasesDuTableau#0;class#Tableau#0" expanded="false" />
             <element signature="method#getLaves#0;class#Tableau#0" expanded="false" />
@@ -806,17 +781,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controleur/Controleur.java">
+    <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/util/Vector.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.423077">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.3575419">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Tableau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54901963">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="method#nettoyerTableau#0;class#Tableau#0" expanded="false" />
+            <element signature="method#estBordGauche#0;class#Tableau#0" expanded="false" />
+            <element signature="method#existeLaveDesDeuxCotes#0;class#Tableau#0" expanded="false" />
+            <element signature="method#nbCasesDuTableau#0;class#Tableau#0" expanded="false" />
+            <element signature="method#getLaves#0;class#Tableau#0" expanded="false" />
+            <element signature="method#creerSol#0;class#Tableau#0" expanded="false" />
+            <element signature="method#creerLave#0;class#Tableau#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Mechants/Mechant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.076923">
+        <state vertical-scroll-proportion="0.66512704">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
@@ -825,21 +816,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controleur/Controleur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33256352">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Case.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state vertical-scroll-proportion="1.0588236">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Deplacement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.0196079">
           <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="e#466#467#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Coordonne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3529412">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -854,50 +861,41 @@
     <entry file="file://$PROJECT_DIR$/src/Model/Hero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/util/Vector.class">
+    <entry file="file://$PROJECT_DIR$/src/Model/Items/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3575419">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Coordonne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3846154">
-          <caret line="87" column="49" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding>
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3375#3376#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Tableau.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/Items/Mallette.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="54" column="62" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.88235295">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
-            <element signature="method#placerSortie#0;class#Tableau#0" expanded="false" />
-            <element signature="method#nettoyerTableau#0;class#Tableau#0" expanded="false" />
-            <element signature="method#estBordGauche#0;class#Tableau#0" expanded="false" />
-            <element signature="method#existeLaveAutour#0;class#Tableau#0" expanded="false" />
-            <element signature="method#existeLaveDesDeuxCotes#0;class#Tableau#0" expanded="false" />
-            <element signature="method#nbCasesDuTableau#0;class#Tableau#0" expanded="false" />
-            <element signature="method#getLaves#0;class#Tableau#0" expanded="false" />
-            <element signature="method#creerSol#0;class#Tableau#0" expanded="false" />
-            <element signature="method#creerLave#0;class#Tableau#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
           </folding>
         </state>
       </provider>

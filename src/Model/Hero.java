@@ -11,7 +11,7 @@ public class Hero extends Personnage{
     int energie;
     //Mallette mallette = new Mallette;
     Vector<Item> items = new Vector();
-    Item itemEnMain = new Item();
+    Item itemEnMain;
 
     public Hero(Case c){
         super(c);

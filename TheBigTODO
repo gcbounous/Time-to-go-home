@@ -15,7 +15,7 @@
 
 -Viloes
 	-pode dar vida ou energia (interface)
-		-ver modo de afecta-lo aleatoriamente 
+		-ver modo de faze-lo aleatoriamente 
 	-IA(?)
 		- ligar ao tabuleiro OU
 		- classe IA commum que verifica o tipo de vilao e se adapta(melhor!) ---> cada vilao tem uma IA. (Divertido. Foda, mas divertido)
@@ -30,16 +30,16 @@
 	-tem vida (se quebravel)
 
 -Item
-	-id
-	-todo item tem um ataque (o que o item faz, defesa, ataque, dar vida e tirar energia, etc.)
+	-(OK!) id
+	-(OK!) todo item tem um ataque (o que o item faz, defesa, ataque, dar vida e tirar energia, etc.)
 	-Maleta
-		-addItem
-		-removeItem
+		-(OK!)addItem
+		-(OK!)removeItem
 		-attack!
 		-block!
-		-getItems
-		-listItems
-		-getItemById
+		-(OK!) getItems
+		-(OK!) listItems
+		-(OK!) getItemById
 
 -Jogo (classe para testar TUDO)
 	-tem tabuleiro

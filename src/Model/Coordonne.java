@@ -7,7 +7,7 @@ import java.util.Vector;
  */
 public class Coordonne {
 
-	private int x,y,z;
+	final private int x,y,z;
 
 	/**
 	 * Constructeur d'une coordonne
