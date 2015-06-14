@@ -1,6 +1,7 @@
-package Model.Items;
+package Model.Objets;
 
 import Model.Case;
+import Model.Coordonne;
 
 import java.util.Vector;
 
@@ -15,20 +16,21 @@ public class Mallette extends Item{
         super("Mallette");
     }
 
-    //TODO
-    public Vector<Case> bloquer(){
+    public Vector<Case> bloquer(Case caseDirection){
         Vector<Case> cases = new Vector<>();
+        //TODO a voir comment faire
         return cases;
     }
 
-     public Vector<Case> attaquer(){
+    public Vector<Case> attaquer(Case caseActuelle){
         Vector<Case> cases = new Vector<>();
+        //TODO il manque le tableau
         return cases;
     }
 
     public void enleverItem(Item item){
         for(int i = 0; i < items.length; i++){
-            if(items[i].getID() == item.getID()){
+            if(items[i] != null && items[i].getID() == item.getID()){
                 items[i] = null;
             }
         }
@@ -62,7 +64,7 @@ public class Mallette extends Item{
 
     public Item getItemByID(int id){
         for(int i = 0; i < items.length; i++){
-            if(items[i].getID() == id){
+            if(items[i] != null && items[i].getID() == id){
                 return items[i];
             }
         }
@@ -72,6 +74,5 @@ public class Mallette extends Item{
     public Item[] getItems(){
         return items;
     }
-
 
 }

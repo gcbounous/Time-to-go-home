@@ -1,8 +1,7 @@
--Heroi
-	-ataque(precisa criar maleta antes)
-	-bloqueia(precisa criar maleta antes)
-	-ataque direto em movimento (a voir comment faire)
-	-salto
+-Heroi (TESTER!!)
+	-(OK!) ataque(precisa criar maleta antes)
+	-(OK!) bloqueia(precisa criar maleta antes)
+	-(OK!) salto
 	-ganhaVida
 	-perdeVida
 	-ganhaEnergia
@@ -12,6 +11,9 @@
 	-removeItem
 	-trocarItemAtivo
 	-ataqueItemAtivo
+
+TimeToGoHome
+	
 
 -Viloes
 	-pode dar vida ou energia (interface)
@@ -25,27 +27,46 @@
 	-um heroi (metodos publicos)
 	-adcionarObjetos (quebraveis ou nao)
 
--Objetos (quebraveis ou nao)
-	-pode dar vida ou energia (interface)
-	-tem vida (se quebravel)
-
--Item
+-Objetos
 	-(OK!) id
-	-(OK!) todo item tem um ataque (o que o item faz, defesa, ataque, dar vida e tirar energia, etc.)
-	-Maleta
-		-(OK!)addItem
-		-(OK!)removeItem
-		-attack!
-		-block!
-		-(OK!) getItems
-		-(OK!) listItems
-		-(OK!) getItemById
+	-Item  (TESTER!!)
+		-(OK!) todo item tem um ataque (o que o item faz, defesa, ataque, dar vida e tirar energia, etc.)
+		-Maleta (TESTER!!)
+			-(OK!) addItem
+			-(OK!) removeItem
+			-attack! (utilizer Tableau (globale) pour determiner cases possibles)
+			-block!
+			-(OK!) getItems
+			-(OK!) listItems
+			-(OK!) getItemById
+		-Caneta
+		-Saco de ovo
+	-Objeto fixo(quebraveis ou nao)
+		-pode dar vida ou energia (interface)
+		-tem vida (se quebravel)
+		-Bomba
+			- a une coordonne d'ou elle est posé, elle explose au tour de cette coordonne
+			- o personagem tem um "criador de bombas (?)" / ataque que cria bombas
+			- ataque bomba
 
--Jogo (classe para testar TUDO)
-	-tem tabuleiro
+-Sol
+	-creer liason avec personnage
+	-creer liason avec ObjetFixe
+
+-Jogo 
+	-tem tabuleiro (variavel global)
 	-o jogo que modifica a posicao do(s) heroi/viloes
 	-tira vida/ da vida
 
 -Level Escritorio
+
+-Level Rua
+
+-JAVADOC
+	-Objet
+	-Hero
+	-Item
+	-Mallette
+
 
 

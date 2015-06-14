@@ -1,20 +1,18 @@
-package Model.Items;
+package Model.Objets;
 
-import Model.Case;
-
-import java.util.Vector;
-
-public abstract class Item {
-
+/**
+ * Created by gabrielcae
+ */
+public class Objet{
     static int ID = 0;
     final String nom;
 
-    public Item(){
+    public Objet(){
         ID = -1;
         nom = "vide";
     }
 
-    public Item(String nom){
+    public Objet(String nom){
         this.nom = nom;
         ID++;
     }
@@ -29,11 +27,9 @@ public abstract class Item {
 
     @Override
     public String toString(){
-        return "Item{" +
-               "Id= " + ID +","+
+        return "Objet{" +
+               "Id= "+ID+","+
                "nom= " + nom +
                '}';
     }
-
-    abstract public Vector<Case> attaquer();
 }

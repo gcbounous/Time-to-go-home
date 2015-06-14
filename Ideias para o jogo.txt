@@ -1,1 +1,6 @@
-Extensoes: dar a possibilidade do personagem voltar em um mundo anterior (uma parte a mais), para melhorar algum item (uma "QUEST")
+Extençoes: dar a possibilidade do personagem voltar em um mundo anterior (uma parte a mais), para melhorar algum item (uma "QUEST")
+
+	-Escritorio:
+
+	-Rua: 
+		-poder aumentar o numero de ovos / alcance dos ovos

@@ -21,7 +21,7 @@ public abstract class Personnage {
 	 * @param nouvelleCase la nouvelle case a se deplacer
 	 * @return vrai si la case est au tour et est "deplaceable"
 	 */
-	public boolean deplacerBasique(Case nouvelleCase){
+	public boolean deplacementBasique(Case nouvelleCase){
 		if(caseActuelle.aPourCaseVoisine(nouvelleCase)){
 			setCaseActuelle(nouvelleCase);
 			return true;
@@ -46,7 +46,7 @@ public abstract class Personnage {
 	 * Setter de la caseActuelle
 	 * @param caseActuelle nouvelle case du personnage
 	 */
-	private void setCaseActuelle(Case caseActuelle) {
+	protected void setCaseActuelle(Case caseActuelle) {
 		this.caseActuelle = caseActuelle;
 	}
 
