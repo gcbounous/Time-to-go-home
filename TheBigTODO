@@ -14,6 +14,15 @@
 
 TimeToGoHome
 	
+-Level
+	-heroi
+	-lista de viloes
+	-verifica os possiveis ataques
+	-ataca
+	-bloqueio 
+	-tem tabuleiro (variavel global)
+	-o jogo que modifica a posicao do(s) heroi/viloes
+	-tira vida/ da vida
 
 -Viloes
 	-pode dar vida ou energia (interface)
@@ -52,11 +61,6 @@ TimeToGoHome
 -Sol
 	-creer liason avec personnage
 	-creer liason avec ObjetFixe
-
--Jogo 
-	-tem tabuleiro (variavel global)
-	-o jogo que modifica a posicao do(s) heroi/viloes
-	-tira vida/ da vida
 
 -Level Escritorio
 
