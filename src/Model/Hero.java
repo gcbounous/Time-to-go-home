@@ -53,9 +53,7 @@ public class Hero extends Personnage{
         vie--;
     }
 
-    public void gagnerUneVie(){
-        vie++;
-    }
+    public void gagnerUneVie(){ vie++; }
 
     public void perdreUneEnergie(){
         energie--;

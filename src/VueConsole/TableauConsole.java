@@ -7,10 +7,22 @@ import Model.Sol;
 
 public class TableauConsole {
 
+	/**
+	 * Constructeur qui dessine le tableau sur la console
+	 * @param nbCouches numero de couches
+	 * @param types vector avec les types des cases
+	 * @param coordonnes vecteur avec les coordonnes des cases
+	 */
 	public TableauConsole(int nbCouches, Vector<String> types, Vector<Coordonne> coordonnes){
 		dessinerTableau(nbCouches, types, coordonnes);
 	}
-	
+
+	/**
+	 * Methode qui dessine le tableau sur la console
+	 * @param nbCouches numero de couches
+	 * @param types vector avec les types des cases
+	 * @param coordonnes vecteur avec les coordonnes des cases
+	 */
 	private void dessinerTableau(int nbCouches, Vector<String> types, Vector<Coordonne> coordonnes){
 		int ligneActuelle = nbCouches;
 		int cpt=0;
@@ -41,7 +53,13 @@ public class TableauConsole {
 		}
 		System.out.println(tableau);
 	}
-	
+
+	/**
+	 * Methode qui liste toutes les cases du tableau
+	 * @param types
+	 * @param coordonnes
+	 */
+	//TODO plus trop necessaire
 	private void listerTableau(Vector<String> types, Vector<Coordonne> coordonnes){
 		String tableau ="";
 		tableau +=" _______ \n";

@@ -1,6 +1,7 @@
 package Model.Mechants;
 
 import Model.Case;
+import Model.Coordonne;
 import Model.Personnage;
 
 import java.util.Vector;
@@ -12,8 +13,8 @@ public class Mechant extends Personnage {
 		super(c);
 	}
 
-	public Vector<Case> attaquer(){
-		Vector<Case> attaquePossible = new Vector();
+	public Vector<Coordonne> attaquer(){
+		Vector<Coordonne> attaquePossible = new Vector();
 		return attaquePossible;
 	}
 }

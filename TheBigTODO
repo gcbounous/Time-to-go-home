@@ -14,7 +14,7 @@
 
 TimeToGoHome
 	
--Level
+-Level (pensar em criar um enum para criar os diferentes leveis)
 	-heroi
 	-lista de viloes
 	-verifica os possiveis ataques
@@ -67,10 +67,12 @@ TimeToGoHome
 -Level Rua
 
 -JAVADOC
-	-Objet
+	-(OK!) TableauConsole
+	-Controleur
 	-Hero
 	-Item
 	-Mallette
+	-Objet
 
 
 
