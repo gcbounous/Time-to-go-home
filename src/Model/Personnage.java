@@ -46,7 +46,7 @@ public abstract class Personnage {
 	 * Setter de la caseActuelle
 	 * @param caseActuelle nouvelle case du personnage
 	 */
-	protected void setCaseActuelle(Case caseActuelle) {
+	private void setCaseActuelle(Case caseActuelle) {
 		this.caseActuelle = caseActuelle;
 	}
 
@@ -54,5 +54,5 @@ public abstract class Personnage {
 	 * Methode qui calcule les cases ateignables par l'attaque
 	 * @return un vecteur de cases "attacables"
 	 */
-	public abstract Vector<Case> attaquer();
+	public abstract Vector<Coordonne> attaquer();
 }

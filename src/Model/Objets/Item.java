@@ -1,6 +1,7 @@
 package Model.Objets;
 
 import Model.Case;
+import Model.Coordonne;
 
 import java.util.Vector;
 
@@ -14,5 +15,5 @@ public abstract class Item extends Objet{
         super(nom);
     }
 
-    abstract public Vector<Case> attaquer(Case caseActuelle);
+    abstract public Vector<Coordonne> attaquer(Case caseActuelle);
 }

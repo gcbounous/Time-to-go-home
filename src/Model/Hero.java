@@ -27,8 +27,8 @@ public class Hero extends Personnage{
         return cases;
     }
 
-    public Vector<Case> attaquer(){
-        Vector<Case> attaquePossible = new Vector();
+    public Vector<Coordonne> attaquer(){
+        Vector<Coordonne> attaquePossible = new Vector();
         attaquePossible = mallette.attaquer(caseActuelle);
         return attaquePossible;
     }
@@ -39,10 +39,14 @@ public class Hero extends Personnage{
         return attaquePossible;
     }
 
-    public Vector<Case> attaquerItem(){
-        Vector<Case> attaquePossible = new Vector();
+    public Vector<Coordonne> attaquerItem(){
+        Vector<Coordonne> attaquePossible = new Vector();
         attaquePossible = itemEnMain.attaquer(caseActuelle);
         return attaquePossible;
+    }
+
+    public void changerItemEnMain(Item i){
+        itemEnMain = i;
     }
 
     public void perdreUneVie(){
@@ -61,8 +65,6 @@ public class Hero extends Personnage{
         energie++;
     }
 
-    
-
     public void augmenterVieTotale(){
         vieTotale++;
         reinitializerVie();
@@ -71,6 +73,29 @@ public class Hero extends Personnage{
     public void augmenterEnergieTotale(){
         energieTotale++;
         reinitializerEnergie();
+    }
+
+    public void ajouterItem(Item i){
+        items.add(i);
+    }
+
+    public void ajouterItemDansMallette(Item i){
+        if(mallette.aDeLaPlace()){
+            mallette.ajouterItem(i);
+        }
+    }
+
+    public void enleverItemDeMallette(Item i){
+        mallette.enleverItem(i);
+    }
+
+    public void changerItemDansMallette(Item itemAncien, Item nouveauItem){
+        enleverItemDeMallette(itemAncien);
+        ajouterItemDansMallette(nouveauItem);
+    }
+
+    public Vector<Item> getItems(){
+        return items;
     }
 
     private void reinitializerVie(){

@@ -27,7 +27,6 @@ public class Coordonne {
 	 * @return tableau avec les coordonnes de la couche
 	 */
 	public Vector<Coordonne> getCoordonnesCouche(int couche){
-		//TODO: tester!!!!
 		Vector<Coordonne> coordonnes = new Vector();
 		Coordonne nouvelleCoordonne = new Coordonne(x+couche, y, z+couche);
 		coordonnes.add(nouvelleCoordonne);

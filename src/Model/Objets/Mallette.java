@@ -22,10 +22,10 @@ public class Mallette extends Item{
         return cases;
     }
 
-    public Vector<Case> attaquer(Case caseActuelle){
-        Vector<Case> cases = new Vector<>();
-        //TODO il manque le tableau
-        return cases;
+    public Vector<Coordonne> attaquer(Case caseActuelle){
+        Vector<Coordonne> coordonnes = new Vector<>();
+        coordonnes = caseActuelle.getCoordonne().getCoordonnesCouche(1);
+        return coordonnes;
     }
 
     public void enleverItem(Item item){
@@ -49,6 +49,14 @@ public class Mallette extends Item{
             if(items[i] != null){
                 System.out.println(items[i].toString());
             }
+        }
+    }
+
+    public boolean aDeLaPlace(){
+        if(compterItems() < 4){
+            return true;
+        } else {
+            return false;
         }
     }
 
