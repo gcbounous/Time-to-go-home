@@ -12,7 +12,7 @@
 	-(OK!) trocarItemAtivo
 	-(OK!) ataqueItemAtivo
 
-TimeToGoHome
+-TimeToGoHome
 	
 -Level (pensar em criar um enum para criar os diferentes leveis)
 	-heroi
@@ -61,6 +61,9 @@ TimeToGoHome
 -Sol
 	-creer liason avec personnage
 	-creer liason avec ObjetFixe
+
+-Lave
+	-voir comment distanguer les laves qui "tuent" et celle qui "bloquent"(example: bureau)
 
 -Level Escritorio
 

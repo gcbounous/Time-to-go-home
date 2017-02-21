@@ -4,3 +4,7 @@ Extençoes: dar a possibilidade do personagem voltar em um mundo anterior (uma p
 
 	-Rua: 
 		-poder aumentar o numero de ovos / alcance dos ovos
+
+	-Heroi
+		-Imagem
+			-A partir de um momento colocar a gravata como faixa do Rambo

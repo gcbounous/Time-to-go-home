@@ -4,13 +4,18 @@ import java.util.Vector;
 
 
 public class Tableau{
-    final private double POURCENTAGE_LAVE = 0.20;
+    final private double POURCENTAGE_LAVE = 0.30;
     final private int CHANCE_LAVE = 1;
     final private int CHANCE_LAVE_AUTOUR = 6;
     final private int nombreCouches;
     private Vector<Case> cases = new Vector<Case>();
     private boolean bloque = false;
 
+    /**TODO:
+     *  pourquoi static ?
+     *  peut-on avoir des problemes en creant pleusieurs tableaux?
+     *  devons nous juste vider le tableau et le modifier (au lieu de creer un nouveau)?
+     */
     static int compteurLave;
 
     /**
@@ -217,7 +222,8 @@ public class Tableau{
      * Methode qui verifie si la lave traverse le tableau en blocant les chemins
      * possibles de passage
      * @param laves vector avec toutes les laves du tableau
-     * @return vrai si lave traverse le tableau en blocant
+     * @return vrai si lave traverse le tableau en le
+     * blocant
      */
     private boolean laveBloque(Lave lave, Vector<Lave> laves){
         laves.remove(lave);
